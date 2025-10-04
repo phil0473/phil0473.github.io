@@ -43,5 +43,10 @@ nav {
   color: #cd54bb;               
   border-radius: 6px;        
   font-weight: 600;
-  transition: all 0.2s ease; 
+  transition: all 0.3s ease; 
+}
+.nav-link:hover,
+.nav-link:focus {
+  background-color: #cd54bb;
+  color: #fff;
 }
