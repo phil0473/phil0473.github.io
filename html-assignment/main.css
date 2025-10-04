@@ -4,7 +4,7 @@ body {
   color: #222; 
 }
 header, footer {
-  background-color: paleturquoise; 
+  background-color: rgb(74, 85, 170); 
   padding: 8px;
   text-align:center;
 }
