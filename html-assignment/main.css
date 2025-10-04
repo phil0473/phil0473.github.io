@@ -8,3 +8,9 @@ header, footer {
   padding: 8px;
   text-align:center;
 }
+.site-title {
+  color: #fd2267; 
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
