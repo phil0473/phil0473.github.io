@@ -25,3 +25,6 @@ header, footer {
   padding: 0 20px;        
   margin: 10px 0;          
 }
+.hobby-list li:nth-child(odd) {
+  background-color: hotpink;
+}
