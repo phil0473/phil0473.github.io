@@ -103,3 +103,7 @@ list-style: none;
     padding: 16px;
     margin: 26px 0;
 }
+
+.form__body{
+    display: flex
+}
