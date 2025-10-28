@@ -9,10 +9,11 @@
 /*base stuff*/
 
 .page-container{
-    background-color: #ffffff;
+    background-color: lightskyblue;
 width: 80%;
 max-width: 1000px;
-margin:auto
+margin:auto;
+border: 1px solid #aaa;
 }
 
 /*layout*/
