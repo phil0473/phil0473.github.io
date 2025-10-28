@@ -161,3 +161,6 @@ list-style: none;
     text-align: right;
     padding: 15px;
 }
+.footer-text{
+    font-size: 14px;
+}
