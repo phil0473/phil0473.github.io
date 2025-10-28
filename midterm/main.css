@@ -64,6 +64,7 @@ padding: 14px;
     margin-top: 8px;
     text-align: center;
     padding: 10px 0;
+    margin-top: 0;
 
 }
 
@@ -78,6 +79,7 @@ padding: 14px;
 .site-nav__link{
     color: #ffffff;
     font-weight: 600;
-    padding: 4px 8px;
+    padding: 0px 20px;
     border-radius: 5px;
+    border-right: 1px solid black;
 }
