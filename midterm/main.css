@@ -114,3 +114,7 @@ list-style: none;
     display: block;
     margin-bottom: 5px;
 }
+.form__input,
+.form__textarea{
+    
+}
