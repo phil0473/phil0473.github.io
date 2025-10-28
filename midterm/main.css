@@ -22,7 +22,8 @@ box-shadow: 0 0 10px rgba(0,0,0,0.15);
 .content {
     max-width: 960px;
 margin: 24px auto;
-padding: 22px;
+padding: 0 40px;
+box-sizing: border-box;
 }
 
 /*header ontop of page*/
@@ -139,4 +140,8 @@ list-style: none;
     margin-bottom: 2px;
     font-weight: 700;
     text-align: left;
+}
+.form-wrapper {
+  max-width: 950px;
+  margin: 40px auto 28px auto; /* centers heading + form together */
 }
