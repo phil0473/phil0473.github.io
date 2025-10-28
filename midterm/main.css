@@ -34,6 +34,7 @@ padding-top: 8px;
 }
 .site-title{
     position:absolute;
+    top: 50%;
     z-index: 1;
      display: inline-block;
       margin: 0;
