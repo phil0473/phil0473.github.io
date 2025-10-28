@@ -58,24 +58,3 @@ padding: 14px;
 
 }
 
-.site-nav { 
-   text-align: center;
-
-}
-
-.site-nav__list {
-    list-style:none;
-     align-items: center;
-    margin: 0;
-    display: inline-flex;
-    justify-content: center;
-    padding: 0;
-}
-
-.site-nav__link{
-    color: #ffffff;
-    font-weight: 600;
-    padding: 16px 40px;
-    border-radius: 5px;
-    border-right: 1px solid black;
-}
