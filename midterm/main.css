@@ -33,10 +33,10 @@ padding-top: 8px;
 
 }
 .site-title{
-    position:relative;
+    position:absolute;
     z-index: 1;
      display: inline-block;
       margin: 0;
         padding: 4px 10px;
-        
+
 }
