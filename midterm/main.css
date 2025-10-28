@@ -126,7 +126,7 @@ list-style: none;
 }
 .form__option { margin-right: 12px; }
 .form__button {
-  color: #fff;
+  background: blueviolet;
   border: 1px solid black ;
   padding: 8px 16px;
   cursor: pointer;
