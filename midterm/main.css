@@ -73,6 +73,7 @@ padding: 14px;
     display: inline-flex;
     gap: 14px;
     padding: 0px;
+    gap: 40px;
 }
 .site-nav__link{
     color: #ffffff;
