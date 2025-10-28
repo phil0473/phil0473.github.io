@@ -74,6 +74,6 @@ padding: 14px;
 }
 .site-nav__link{
     color: #ffffff;
-    font-weight: 600
-
+    font-weight: 600;
+    padding: 4px 8px;
 }
