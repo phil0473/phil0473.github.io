@@ -59,12 +59,7 @@ padding: 14px;
 }
 
 .site-nav { 
-    position: relative;
-    z-index: 1 ;
-    margin-top: 8px;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 0;
+   text-align: center;
 
 }
 
