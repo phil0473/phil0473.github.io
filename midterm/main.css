@@ -105,5 +105,6 @@ list-style: none;
 }
 
 .form__body{
-    display: flex
+    display: flex;
+    flex-direction: column;
 }
