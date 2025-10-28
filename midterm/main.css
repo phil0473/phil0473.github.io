@@ -98,9 +98,9 @@ list-style: none;
 
 }
 .form{
-    background: #ffffff;
-    border-radius: 10px;
-    padding: 16px;
+    background:paleturquoise;
+     border: 1px solid #000;
+    padding: 20px;
     margin: 26px 0;
 }
 
