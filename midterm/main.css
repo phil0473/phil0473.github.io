@@ -123,3 +123,12 @@ list-style: none;
     font-family: inherit;
     box-sizing: border-box;
 }
+.form__option { margin-right: 12px; }
+.form__button {
+  color: #fff;
+  border: 0.5px black ;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 80px;
+  text-align: center;
+}
