@@ -10,7 +10,9 @@
 
 .page-container{
     background-color: #ffffff;
-
+width: 80%;
+max-width: 1000px;
+margin:auto
 }
 
 /*layout*/
