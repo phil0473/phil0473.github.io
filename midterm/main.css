@@ -89,3 +89,8 @@ list-style: none;
 .text{
     margin: 0 0 11px;
 }
+
+.float-left{
+    float:left
+    width: 320px;
+}
