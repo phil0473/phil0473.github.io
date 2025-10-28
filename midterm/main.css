@@ -157,3 +157,7 @@ list-style: none;
   max-width: 950px;
   margin: 40px auto 28px auto; /* centers heading + form together */
 }
+.site-footer {
+    text-align: right;
+    padding: 15px;
+}
