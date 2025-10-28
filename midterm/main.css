@@ -123,7 +123,3 @@ list-style: none;
     font-family: inherit;
     box-sizing: border-box;
 }
-.form__input:focus,
-.form__textarea:focus {
-    
-}
