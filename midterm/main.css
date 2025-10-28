@@ -99,4 +99,6 @@ list-style: none;
 }
 .form{
     background: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
 }
