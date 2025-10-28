@@ -18,5 +18,7 @@ padding: 0 15px;
 .site-header{
    position: relative;
    height: 200px;
+    background: rgb(74, 85, 170);
+    overflow: hidden;
 
 }
