@@ -68,3 +68,6 @@ list-style: none;
   align-items: center;
   justify-content: center;
 }
+.site-nav__item {
+  border-left: 1px solid black;
+}
