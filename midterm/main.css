@@ -72,3 +72,13 @@ list-style: none;
   border-left: 1px solid black;
 }
 .site-nav__item:first-child { border-left: none; }
+
+.site-nav__link {
+  display: block;
+  padding: 14px 40px;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
