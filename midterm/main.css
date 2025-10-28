@@ -98,6 +98,15 @@ list-style: none;
     margin: 0 20px 12px;
 
 }
+.facts {
+  margin: 0;
+  padding: 0 40px;
+}
+
+.facts-title,
+.facts-list {
+  text-align: left;   /* only affects these elements */
+}
 
 .form{
     background:paleturquoise;
