@@ -47,6 +47,8 @@ padding-top: 8px;
 }
 
 .site-nav { 
-    position: relative
+    position: relative;
+    z-index: 1 ;
+    margin-top: 6px;
 
 }
