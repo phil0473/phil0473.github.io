@@ -14,7 +14,7 @@ width: 80%;
 max-width: 1000px;
 margin:auto;
 border: 1px solid #aaa;
-box-shadow: 0 0 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.15);
 }
 
 /*layout*/
