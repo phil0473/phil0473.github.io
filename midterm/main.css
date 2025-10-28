@@ -52,3 +52,10 @@ padding-top: 8px;
     margin-top: 8px;
 
 }
+
+.site-nav__list {
+    list-style:;
+    margin: 0px;
+    display: inline-flex;
+    gap: 14px;
+}
