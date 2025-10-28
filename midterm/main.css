@@ -71,3 +71,4 @@ list-style: none;
 .site-nav__item {
   border-left: 1px solid black;
 }
+.site-nav__item:first-child { border-left: none; }
