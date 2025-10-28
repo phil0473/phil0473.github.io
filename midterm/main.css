@@ -117,5 +117,6 @@ list-style: none;
 .form__input,
 .form__textarea{
     width: 100%;
+    padding: 8px;
     
 }
