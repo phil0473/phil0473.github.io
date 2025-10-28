@@ -116,5 +116,6 @@ list-style: none;
 }
 .form__input,
 .form__textarea{
+    width: 100%;
     
 }
