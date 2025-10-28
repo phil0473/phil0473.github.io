@@ -70,8 +70,10 @@ padding: 14px;
 
 .site-nav__list {
     list-style:none;
+     align-items: center;
     margin: 0px;
     display: inline-flex;
+    justify-content: center;
     gap: 14px;
     padding: 0px;
     gap: 40px;
@@ -79,7 +81,7 @@ padding: 14px;
 .site-nav__link{
     color: #ffffff;
     font-weight: 600;
-    padding: 0 20px;
+    padding: 16px 40px;
     border-radius: 5px;
     border-right: 1px solid black;
 }
