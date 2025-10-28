@@ -57,5 +57,6 @@ padding: 14px;
         padding: 4px 10px;
 }
 .site-nav{
-text-align: center;    
+text-align: center; 
+  border-top: 1px solid #a9b8b4;   
 }
