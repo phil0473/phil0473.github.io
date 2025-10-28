@@ -110,5 +110,6 @@ list-style: none;
     gap: 15px;
 }
 .form__label{
-    font-weight: 500
+    font-weight: 500;
+    display: block;
 }
