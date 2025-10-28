@@ -35,4 +35,5 @@ padding-top: 8px;
 .site-title{
     position: relative;
     z-index: 1;
+     display: inline-block;
 }
