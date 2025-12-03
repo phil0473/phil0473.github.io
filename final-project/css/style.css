@@ -42,3 +42,6 @@ a {
     border: none;
     cursor: pointer;
 }
+.btn:hover{
+    background-color:#a67505; /*  darker for hover effect */
+}
