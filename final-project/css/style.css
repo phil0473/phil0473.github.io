@@ -46,3 +46,8 @@ a {
     background-color:#a67505; /*  darker for hover effect */
     color: var(--white);
 }
+
+section {
+    padding: 2rem 1.5rem;
+}
+
