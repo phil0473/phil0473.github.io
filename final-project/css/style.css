@@ -11,3 +11,9 @@
     --white: #fff;
     --font-stack: 'Open Sans', sans-serif; /* [cite: 20] */
 }
+
+body {
+    font-family: var(--font-stack);
+    color: var(--dark-grey);
+    
+}
