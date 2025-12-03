@@ -23,3 +23,11 @@ img {
     height: auto;
     display: block;
 }
+
+/* mobile first approach */
+
+/* Links & Buttons */
+a {
+    text-decoration: none;
+    color: var(--dark-grey);
+}
