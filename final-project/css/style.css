@@ -35,5 +35,5 @@ a {
     display: inline-block;
     background-color: var(--primary-color);
     color: var(--dark-grey);
-    
+    padding: 0.8rem 1.5rem;
 }
