@@ -36,4 +36,5 @@ a {
     background-color: var(--primary-color);
     color: var(--dark-grey);
     padding: 0.8rem 1.5rem;
+    font-weight: bold;
 }
