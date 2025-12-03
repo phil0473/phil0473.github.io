@@ -58,3 +58,8 @@ section {
 border-bottom: 3px solid var(--primary-color);
 display:inline-block;
 }
+
+.site-header{
+    background-color: var(--dark-grey);
+    
+}
