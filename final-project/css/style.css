@@ -31,3 +31,6 @@ a {
     text-decoration: none;
     color: var(--dark-grey);
 }
+.btn {
+    display: inline-block;
+}
