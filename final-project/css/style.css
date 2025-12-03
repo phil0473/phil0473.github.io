@@ -28,3 +28,30 @@ h1, h2, h3 {
     font-weight: 700; /* Bold headings */
     margin-bottom: 1rem;
 }
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    border: none;
+}
+
+.hero-button{
+background-color: var(--gold);
+color: var(--black);
+}
+
+.plans-button, .vision-button {
+    background-color: var(--black);
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
