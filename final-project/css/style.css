@@ -60,7 +60,7 @@ display:inline-block;
 }
 
 .site-header{
-    background-color: var(--dark-grey);
+    background-color: var(--secondary-color);
     color: var(--white);
     padding: 1rem;
 }
@@ -70,3 +70,8 @@ display:inline-block;
     color: var(--primary-color);
     margin-bottom: 1rem;
 }
+.nav-links{
+    list-style: none;
+    text-align: center;
+}
+
