@@ -44,4 +44,5 @@ a {
 }
 .btn:hover{
     background-color:#a67505; /*  darker for hover effect */
+    color: var(--white);
 }
