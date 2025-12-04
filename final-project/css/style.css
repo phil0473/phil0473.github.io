@@ -256,7 +256,17 @@ background-color: var(--light-gold);
     background-image: url(../images/vision.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 4rem 2rem;
+    color: var(--white);
+    min-height: 400px;
 }
+
+
 
 
 @media  (min-width:760px){
