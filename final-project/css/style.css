@@ -173,3 +173,12 @@ img{
 justify-content: center;
 padding: 1rem;
 }
+
+.hero-content{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    text-align: center;
+    color: var(--white);
+    max-width: 500px;
+    width: 100%;
+}
