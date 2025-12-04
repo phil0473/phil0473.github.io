@@ -101,3 +101,62 @@ img{
     cursor: pointer;
     font-size: 1.2rem;
 }
+
+@media (min-width:760px){
+    .site-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        background-color: var(--dark-grey);
+        height: 80px;
+    }
+
+    .logo{
+        width: 60px;
+        height: 60px;
+        padding: 10px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .nav-links{
+        display: flex;
+        gap: 30px;
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .nav-links li {
+        width: auto;
+    }
+
+    .nav-links a {
+     padding: 0.5rem 1rem;
+     color: var(--primary-gold);
+     background-color: transparent;
+     font-weight: 400;
+    }
+
+    .nav-links li:first-child a {
+        background-color: var(--primary-gold);
+        color: var(--dark-grey); /* Text turn dark */
+        font-weight: bold;
+    }
+
+    .nav-links li:first-child a:hover {
+        opacity: 0.9;
+    }
+
+    .search-form {
+        width: auto;
+        margin: 0;
+    }
+
+    .search-form input {
+        width: 200px; 
+    }
+}
