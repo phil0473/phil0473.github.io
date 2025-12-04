@@ -37,14 +37,6 @@ img{
    padding-bottom: 1rem;
 }
 
-.site-header a {
-    text-decoration: none;
-    color: var(--white);
-}
-
 .logo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    color: var(--white);
+    background-color: var(--primary-gold);
 }
