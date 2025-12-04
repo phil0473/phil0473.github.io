@@ -66,3 +66,14 @@ img{
     color: var(--primary-gold);
     font-weight: 400;
 }
+
+/* special style for home link */
+
+.nav-links li:first-child a{
+    background-color: var(--primary-gold);
+    color: var(--dark-grey);
+}
+
+.nav-links a:hover{
+    color: var(--white);
+}
