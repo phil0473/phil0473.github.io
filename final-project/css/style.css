@@ -164,9 +164,12 @@ img{
 /* mobile first */
 
 .hero-section{
-    background-image: url('images/main-banner.jpg');
+    background-image: url('../images/main-banner.jpg');
     background-size: cover;
     background-position: center;
-    
-
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+padding: 1rem;
 }
