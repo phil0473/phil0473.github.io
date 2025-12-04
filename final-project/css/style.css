@@ -12,3 +12,9 @@
     --dark-grey: #222;
     --white: #ffffff;
 }
+
+body{
+    font-family: 'open sans', sans-serif;
+    line-height: 1.6;
+    color: var(--dark-grey);
+}
