@@ -432,4 +432,22 @@ font-size: 0.8rem;
     .service-item:nth-child(5) {
         grid-column: span 2; /* Spans one-third width (2/6) */
     }
+
+    /* vision sect desktop*/
+
+    .vision-section{
+        padding: 6rem 10%;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .vision-section h2{
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .vision-section p{
+        font-size: 1.2rem;
+        
+    }
 }
