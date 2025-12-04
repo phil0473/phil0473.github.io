@@ -24,3 +24,8 @@ img{
     height: auto;
     display: block;
 }
+
+.container, header, section, footer{
+    max-width: 1200px;
+    margin: 0 auto;
+}
