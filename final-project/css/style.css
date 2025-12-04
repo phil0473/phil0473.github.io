@@ -154,6 +154,20 @@ background-color: var(--light-gold);
     margin-left: 8px;
 }
 
+/* about us mobile*/
+
+.about-us{
+    background-color: var(--light-gold);
+    padding: 4rem 1rem;
+}
+
+.about-images img{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 2rem;
+}
+
 @media  (min-width:760px){
     .site-header{
         display: flex;
