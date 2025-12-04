@@ -232,6 +232,25 @@ background-color: var(--light-gold);
     flex-grow: 1;
 }
 
+.plans-button{
+    display: block;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 1.5rem;
+    margin-top: auto;
+    transition: background-color 0.3s;
+}
+
+.plans-button:hover{
+    background-color: var(--primary-gold);
+    color: var(--dark-grey);
+}
+
+
 @media  (min-width:760px){
     .site-header{
         display: flex;
@@ -345,5 +364,9 @@ background-color: var(--light-gold);
         grid-row: 1;
         text-align: left;
     }
+
+    /* services section desktop */
+
+    
 }
 
