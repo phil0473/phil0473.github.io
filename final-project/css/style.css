@@ -4,3 +4,11 @@
     margin: 0;
     padding: 0;
 }
+
+/* colors */
+:root{
+    --primary-gold: #c78c06;
+    --light-gold: #ffe6ac;
+    --dark-grey: #222;
+    --white: #ffffff;
+}
