@@ -289,5 +289,17 @@ background-color: var(--light-gold);
         gap: 4rem;
         align-items: center;
     }
+
+    .about-images{
+        grid-column: 1;
+        grid-row: 1;
+        margin-bottom: 0;
+    }
+
+    .about-content{
+        grid-column: 2;
+        grid-row: 1;
+        text-align: left;
+    }
 }
 
