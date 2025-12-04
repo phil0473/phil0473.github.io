@@ -367,20 +367,22 @@ background-color: var(--light-gold);
 
     /* service section desktop */
 
-    .service-list{
+    
+    /* Make sure this matches your HTML class exactly! */
+    .service-list {
+        display: grid;
         grid-template-columns: repeat(6, 1fr);
         gap: 30px;
     }
 
     .service-item:nth-child(1),
-    .service-item:nth-child(2){
-        grid-column: span 3;
+    .service-item:nth-child(2) {
+        grid-column: span 3; /* Spans half the width (3/6) */
     }
-
+    
     .service-item:nth-child(3),
     .service-item:nth-child(4),
     .service-item:nth-child(5) {
-        grid-column: span 2;
+        grid-column: span 2; /* Spans one-third width (2/6) */
+    }
 }
-}
-
