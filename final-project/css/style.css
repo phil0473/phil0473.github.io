@@ -250,6 +250,14 @@ background-color: var(--light-gold);
     color: var(--dark-grey);
 }
 
+/* vision mobile first */
+
+.vision-section{
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 
 @media  (min-width:760px){
     .site-header{
@@ -368,7 +376,6 @@ background-color: var(--light-gold);
     /* service section desktop */
 
     
-    /* Make sure this matches your HTML class exactly! */
     .service-list {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
@@ -379,7 +386,7 @@ background-color: var(--light-gold);
     .service-item:nth-child(2) {
         grid-column: span 3; /* Spans half the width (3/6) */
     }
-    
+
     .service-item:nth-child(3),
     .service-item:nth-child(4),
     .service-item:nth-child(5) {
