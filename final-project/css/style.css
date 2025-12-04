@@ -367,6 +367,11 @@ background-color: var(--light-gold);
 
     /* services section desktop */
 
+    .services-list{
+        grid-template-columns: repeat(6, 1fr);
+        gap: 30px;
+    }
+
     
 }
 
