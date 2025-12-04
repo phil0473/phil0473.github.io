@@ -29,3 +29,12 @@ img{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* header - mobile first */
+
+.siteheader{
+    background-color: var(--dark-grey);
+    color: var(--white);
+    padding: 1rem;
+    text-align: center;
+}
