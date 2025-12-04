@@ -189,3 +189,26 @@ padding: 1rem;
     line-height: 1.2;
 }
 
+.hero-text{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.hero-button{
+    display: inline-block;
+    background-color: var(--primary-gold);
+    color: var(--dark-grey);
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover{
+background-color: var(--light-gold);
+}
+
+.hero-button i{
+    margin-left: 8px;
+}
