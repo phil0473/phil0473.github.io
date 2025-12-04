@@ -18,3 +18,9 @@ body{
     line-height: 1.6;
     color: var(--dark-grey);
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
