@@ -365,13 +365,22 @@ background-color: var(--light-gold);
         text-align: left;
     }
 
-    /* services section desktop */
+    /* service section desktop */
 
-    .services-list{
+    .service-list{
         grid-template-columns: repeat(6, 1fr);
         gap: 30px;
     }
 
-    
+    .service-item:nth-child(1),
+    .service-item:nth-child(2){
+        grid-column: span 3;
+    }
+
+    .service-item:nth-child(3),
+    .service-item:nth-child(4),
+    .service-item:nth-child(5) {
+        grid-column: span 2;
+}
 }
 
