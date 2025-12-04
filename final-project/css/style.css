@@ -266,7 +266,12 @@ background-color: var(--light-gold);
     min-height: 400px;
 }
 
-.vision-section h2{
+.vision-section .section-title {
+    color: var(--white);
+    border-bottom: none; 
+}
+
+.vision-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
@@ -275,6 +280,23 @@ background-color: var(--light-gold);
     margin-bottom: 2rem;
     max-width: 600px;
     line-height: 1.5;
+}
+
+.vision-button{
+    background-color: var(--dark-grey);
+    border: 1px solid var(--primary-gold);
+    color: var(--white);
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.vision-button i{
+margin-left: 10px;
+font-size: 0.8rem;
 }
 
 @media  (min-width:760px){
