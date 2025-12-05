@@ -202,7 +202,7 @@ background-color: var(--light-gold);
     color: var(--dark-grey);
 }
 
-.services-list{
+.service-list{
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -253,7 +253,7 @@ background-color: var(--light-gold);
 /* vision mobile first */
 
 .vision-section{
-    background-image: url(../images/vision.jpg);
+    background-image: url('../images/vision.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -334,7 +334,19 @@ color: var(--dark-grey);
 padding: 1.5rem 1.5rem 0.2rem 1.5rem;
 }
 
+.member-title{
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: var(--dark-grey);
+    border-bottom: 1px solid var(--dark-grey);
+    margin: 0 1.5rem 1rem 1.5rem;
+    padding-bottom: 0.5rem;
+}
 
+.member-bio {
+    padding: 0 1.5rem 2rem 1.5rem; 
+    font-size: 0.95rem;
+}
 
 @media  (min-width:760px){
     .site-header{
