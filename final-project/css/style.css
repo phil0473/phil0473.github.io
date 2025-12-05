@@ -422,7 +422,20 @@ color: var(--dark-grey);
     border-bottom: 1px solid #ccc;
 }
 
+.hours-details td {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    background-color: var(--white);
+}
 
+.map-container iframe{
+    
+    width: 100%;
+    height: 300px;
+    border: 1px solid #ccc;
+
+
+}
 
 
 @media  (min-width:760px){
