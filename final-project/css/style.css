@@ -415,6 +415,13 @@ color: var(--dark-grey);
 
 }
 
+.hours-details th{
+    background-color: var(--light-gold);
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
 
 
 
