@@ -626,4 +626,8 @@ color: var(--dark-grey);
     gap: 5rem;
     align-items: start;
 }
+
+.contact-section{
+    padding: 6rem 10%;
+}
 }
