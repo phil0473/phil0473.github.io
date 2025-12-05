@@ -513,5 +513,46 @@ padding: 1.5rem 1.5rem 0.2rem 1.5rem;
         gap: 0;
     }
 
+    .team-member{
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        padding: 0;
+    }
+
+    .team-member img{
+        width: 50%;
+        object-fit: cover;
+    }
+
+    .member-info{
+        width: 50%;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .team-member h3{
+        margin: 0 0 0.5rem 0;
+        padding: 0;
+        font-size: 1.8rem;
+    }
     
+    .member-title {
+        margin: 0 0 1.5rem 0;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--dark-grey);
+        display: inline-block;
+        width: fit-content;
+    }
+
+    .member-bio {
+        padding: 0;
+        margin: 0;
+    }
+
+    .team-member:nth-child(even) {
+        flex-direction: row-reverse
+}
 }
