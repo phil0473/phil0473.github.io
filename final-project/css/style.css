@@ -507,6 +507,10 @@ padding: 1.5rem 1.5rem 0.2rem 1.5rem;
     }
 
     /* team section mobile*/
+
+    .team-section{
+        text-align: left;
+    }
     .team-members{
         display: grid;
         grid-template-columns: 1fr;
