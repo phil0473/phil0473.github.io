@@ -301,10 +301,23 @@ font-size: 0.8rem;
 
 /* team mobile first */
 
-.team-section, {
+.team-section {
     padding: 4rem 1rem;
     text-align: center;
 }
+
+.team-members{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.team-member{
+    background-color: var(--light-gold);
+    padding: 0;
+    text-align: left;
+}
+
 
 
 @media  (min-width:760px){
