@@ -448,6 +448,12 @@ font-size: 0.8rem;
 
     .vision-section p{
         font-size: 1.2rem;
-        
+        max-width: 800px;
+        line-height: 1.8;
+    }
+
+    .vision-button{
+        font-size: 1.3rem;
+        padding: 15px 40px;
     }
 }
