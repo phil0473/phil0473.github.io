@@ -407,6 +407,8 @@ color: var(--dark-grey);
     opacity: 0.9;
 }
 
+
+
 @media  (min-width:760px){
     .site-header{
         display: flex;
@@ -565,7 +567,7 @@ color: var(--dark-grey);
         padding: 15px 40px;
     }
 
-    /* team section mobile*/
+    /* team section desktop*/
 
     .team-section{
         text-align: left;
@@ -617,5 +619,11 @@ color: var(--dark-grey);
 
     .team-member:nth-child(even) {
         flex-direction: row-reverse
+}
+
+.contact-container{
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: start;
 }
 }
