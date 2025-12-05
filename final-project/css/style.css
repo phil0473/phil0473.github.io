@@ -444,7 +444,14 @@ color: var(--dark-grey);
     text-align: left;
     font-size: 0.9rem;
 }
+.site-footer p{
+    margin-bottom: 0.5rem;
+}
 
+.site-footer a{
+    color: var(--primary-gold);
+    text-decoration: underline;
+}
 
 @media  (min-width:760px){
     .site-header{
