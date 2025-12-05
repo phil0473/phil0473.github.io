@@ -299,6 +299,14 @@ margin-left: 10px;
 font-size: 0.8rem;
 }
 
+/* team mobile first */
+
+.team-section, {
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+
 @media  (min-width:760px){
     .site-header{
         display: flex;
