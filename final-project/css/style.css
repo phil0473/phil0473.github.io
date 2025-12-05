@@ -651,6 +651,7 @@ color: var(--dark-grey);
 }
 
 .contact-container{
+    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
     align-items: start;
@@ -659,4 +660,22 @@ color: var(--dark-grey);
 .contact-section{
     padding: 6rem 10%;
 }
+
+.contact-form{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.location-info {
+        grid-column: 2;
+        grid-row: 1;
+        width: 100%;
+    }
+
+    .hours-details {
+        grid-column: 1 / span 2;
+        grid-row: 2;       
+        margin-top: 2rem;      
+    }
+
 }
