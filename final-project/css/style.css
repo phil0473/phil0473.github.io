@@ -453,6 +453,10 @@ color: var(--dark-grey);
     text-decoration: underline;
 }
 
+.site-footer a:hover{
+    color: var(--white);
+}
+
 @media  (min-width:760px){
     .site-header{
         display: flex;
