@@ -382,6 +382,16 @@ color: var(--dark-grey);
     font-size: 0.95rem;
 }
 
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    background-color: #fff;
+}
+
 @media  (min-width:760px){
     .site-header{
         display: flex;
