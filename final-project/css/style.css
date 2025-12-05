@@ -397,7 +397,10 @@ color: var(--dark-grey);
     color: var(--primary-gold);
     border: none;
     padding: 12px 35px;
-    
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
 }
 
 @media  (min-width:760px){
