@@ -368,7 +368,10 @@ padding: 1.5rem 1.5rem 0.2rem 1.5rem;
     gap: 3rem;
 }
 
-.contact-form h3{
+
+
+.contact-form h3, .hours-details h3, 
+.location-info h3{
 font-size: 1.5rem;
 font-weight: bold;
 margin-bottom: 1rem;
@@ -378,8 +381,6 @@ color: var(--dark-grey);
 .contact-form label{
     display: block;
     margin-bottom: 0.5rem;
-    font-weight: normal;
-    font-size: 0.95rem;
 }
 
 .contact-form input, .contact-form textarea{
@@ -406,6 +407,14 @@ color: var(--dark-grey);
 .contact-form button:hover{
     opacity: 0.9;
 }
+
+.hours-details table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+
+}
+
 
 
 
