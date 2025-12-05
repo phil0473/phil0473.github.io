@@ -437,6 +437,14 @@ color: var(--dark-grey);
 
 }
 
+.site-footer{
+    background-color: var(--dark-grey);
+    color: var(--primary-gold);
+    padding: 2rem 1rem;
+    text-align: left;
+    font-size: 0.9rem;
+}
+
 
 @media  (min-width:760px){
     .site-header{
